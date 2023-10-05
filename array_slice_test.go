@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func Test(t *testing.T) {
+func TestArraySlice(t *testing.T) {
 	// Diberikan sebuah array seperti berikut :
 	animals := [...]string{"Cat", "Dog", "Pinguin", "Chicken", "Snake"}
 

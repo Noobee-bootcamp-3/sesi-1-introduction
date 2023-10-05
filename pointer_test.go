@@ -15,7 +15,7 @@ func (s *Student) SetMyName(newName string) {
 }
 
 func (s *Student) CallMyName() {
-	fmt.Println("Hello, My name is ", s.Name)
+	fmt.Println("Hello, My name is", s.Name)
 }
 
 func Test(t *testing.T) {
@@ -23,7 +23,7 @@ func Test(t *testing.T) {
 		Name:  "David Maulana",
 		Class: 12,
 	}
-	fmt.Println(student)
+	fmt.Println("Hello, My name is", student.Name)
 
 	student.SetMyName("Rizki Ridho")
 	student.CallMyName()
